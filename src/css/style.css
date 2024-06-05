@@ -1,0 +1,48 @@
+/*# sourceMappingURL=style.css.map */
+@font-face {
+    font-family: vasir;
+    src: url(/public/font/Vazir-Bold.ttf);
+}
+*{
+    font-family: "vasir";
+}
+body{
+    background: #eee;
+    font-family: 'vasir';
+}
+#box{
+    margin: 50px auto;
+    width: 500px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 30px;
+}
+#box > h3 {
+    text-align: center;
+}
+#insurance{
+    margin-top: 30px;
+}
+#spinner{
+    transform: translateX(-50%);
+    display: none;
+}
+#submit{
+    background-color: white;
+    border: 2px solid rgb(2, 84, 235);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    transition: all 0.3s;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(-110%);
+}
+#submit:hover{
+    background-color: rgb(2, 84, 235);
+    color: white;
+}

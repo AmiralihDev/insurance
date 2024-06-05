@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="/src/css/silverBox.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>محاسبه آنلاین قیمت بیمه خودرو</title>  
+  </head>
+  <body>
+    <div id="box">
+      <h3>محاسبه انلاین بیمه خودرو</h3>
+      <hr>
+      <div id="carSelectDiv">
+        <h3>نوع خودرو</h3>
+        <select name="" id="carSelect">
+          <option value="">-انتخاب خودرو-</option>
+          <option value="">-پراید-</option>
+          <option value="">-اپتیما-</option>
+          <option value="">-پورشه-</option>
+        </select>
+      </div>
+      <div id="yearSelectDiv">
+        <h3>سال ساخت خودرو</h3>
+        <select name="" id="yearSelect"></select>
+      </div>
+      <div id="insurance">
+        
+        <div>
+          <label>
+
+            شخص ثالث
+          </label>
+          <input type="radio" name="level" value="static" id="static">
+        </div>
+        <div>
+          <label>شخص ثالث و بدنه</label>
+          <input type="radio" name="level" value="advance" id="advance" checked>
+        </div>
+      </div>
+      <button id="submit" type="button">محاسبه</button>
+      <img id="spinner" src="public/img/spinner.gif" alt="">
+      <div id="result">
+
+      </div>
+    </div>
+    <script type="module" src="src/js/main.js"></script>
+    <script type="module" src="src/js/showData.js"></script>
+  </body>
+</html>
